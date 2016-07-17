@@ -3,7 +3,7 @@
 Send a *POST* request to https://beta.furrynetwork.com/api/oauth/token
 
 
-Body:
+x-www-form-urlencoded:
 ```
 username: "email here"
 password: "password here"
