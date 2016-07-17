@@ -1,12 +1,24 @@
+#Table of Contents
+
+
+* [How to Get Your Access Token](https://github.com/ConnorTheFox/FurryNetworkAPI#how-to-get-a-bearer-token)
+* Using FN's API
+  * Getting Information About A Character
+  * Conversations
+  * Account Settings
+  * Updating a Character
+  * Submissions
+  * Getting Information About A Submission
+
 # How to get a bearer token?
 
-Send a *POST* request to https://beta.furrynetwork.com/api/oauth/token
+Send a **POST** request to https://beta.furrynetwork.com/api/oauth/token
 
 
 x-www-form-urlencoded:
 ```
-username: "email here"
-password: "password here"
+username: email here
+password: password here
 grant_type: password
 client_type: 123
 ```
