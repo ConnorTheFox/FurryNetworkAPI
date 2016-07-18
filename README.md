@@ -1,9 +1,10 @@
-#Table of Contents
+# Table of Contents
 
 
 * [How to Get Your Access Token](https://github.com/ConnorTheFox/FurryNetworkAPI#how-to-get-a-bearer-token)
+  * [Using Your Access Token](https://github.com/ConnorTheFox/FurryNetworkAPI#using-your-access-token)
 * Using FN's API
-  * Getting Information About A Character
+  * [Getting Information About A Character](https://github.com/ConnorTheFox/FurryNetworkAPI/blob/master/CHARACTERINFO.md)
   * Conversations
   * Account Settings
   * Updating a Character
@@ -31,4 +32,10 @@ Response:
 "scope":null,
 "refresh_token":"egfdg7dfgdfhgdfg632qgj0gfdvh534gfd5435fdg",
 "user_id":12345}
+```
+
+# Using your access token
+In your request make a header that looks like this,
+```
+authorization: Bearer access_token here
 ```
