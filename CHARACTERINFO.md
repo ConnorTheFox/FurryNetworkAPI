@@ -1,4 +1,4 @@
-# API Endpoints
+# Character Info
 * [User Info](https://github.com/ConnorTheFox/FurryNetworkAPI/blob/master/CHARACTERINFO.md#user-info)
 * [Tickets](https://github.com/ConnorTheFox/FurryNetworkAPI/blob/master/CHARACTERINFO.md#tickets)
 * [Unread Commissions](https://github.com/ConnorTheFox/FurryNetworkAPI/blob/master/CHARACTERINFO.md#unread-commissions)
@@ -208,7 +208,7 @@ multimedia,
   # Character History
 Method: GET
 
-Endpoint: https://beta.furrynetwork.com/api/activity/"CharacterNameHere"/history
+Endpoint: https://beta.furrynetwork.com/api/activity/(CharacterNameHere)/history
 
 Response:
 ```
@@ -247,7 +247,7 @@ Response:
 # Following
 Method: GET
 
-Endpoint: https://beta.furrynetwork.com/api/character/"CharacterNameHere"/following
+Endpoint: https://beta.furrynetwork.com/api/character/(CharacterNameHere)/following
 
 Response:
 ```
@@ -287,7 +287,7 @@ Response:
 # Followers
 Method: GET
 
-Endpoint: https://beta.furrynetwork.com/api/character/"CharacterNameHere"/followers
+Endpoint: https://beta.furrynetwork.com/api/character/(CharacterNameHere)/followers
 
 Response:
 ```
@@ -326,7 +326,7 @@ Response:
 # Stats
 Method: GET
 
-Endpoint: https://beta.furrynetwork.com/api/character/"CharacterNameHere"/stats
+Endpoint: https://beta.furrynetwork.com/api/character/(CharacterNameHere)/stats
 
 Response:
 ```

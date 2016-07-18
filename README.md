@@ -5,7 +5,7 @@
   * [Using Your Access Token](https://github.com/ConnorTheFox/FurryNetworkAPI#using-your-access-token)
 * Using FN's API
   * [Getting Information About A Character](https://github.com/ConnorTheFox/FurryNetworkAPI/blob/master/CHARACTERINFO.md)
-  * Conversations
+  * [Conversations](https://github.com/ConnorTheFox/FurryNetworkAPI/blob/master/CONVERSATIONS.md)
   * Account Settings
   * Updating a Character
   * Submissions
